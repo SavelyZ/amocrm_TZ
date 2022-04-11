@@ -1,0 +1,9 @@
+{
+    "repositories": [{
+        "type": "git",
+        "url": "https://_empresa@bitbucket.org/mahatmaguru/intr-sdk-test.git"
+    }],
+    "require": {
+        "mahatmaguru/intr-sdk-test": "*@dev"
+    }
+}

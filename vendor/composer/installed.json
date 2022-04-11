@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "mahatmaguru/intr-sdk-test",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://_empresa@bitbucket.org/mahatmaguru/intr-sdk-test.git",
+                "reference": "da23c51116904907273e4238db405bd060750579"
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.12",
+                "phpunit/phpunit": "~4.8",
+                "satooshi/php-coveralls": "~1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "time": "2017-07-05T11:41:27+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Introvert\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Introvert\\": "test/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Swagger and contributors",
+                    "homepage": "https://github.com/swagger-api/swagger-codegen"
+                }
+            ],
+            "homepage": "http://swagger.io",
+            "keywords": [
+                "api",
+                "php",
+                "sdk",
+                "swagger"
+            ],
+            "install-path": "../mahatmaguru/intr-sdk-test"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
